@@ -8,10 +8,6 @@ The dataset used in this project is the TREC 2024 Tip-of-the-Tongue dataset.
 
 Instead, the corpus is loaded using the `ir_datasets` library:
 
-```python
-import ir_datasets
-dataset = ir_datasets.load("trec-tot/2024")
-
 
 ## Installation
 
@@ -47,3 +43,4 @@ dev1-2024.zip (validation set)
 dev2-2024.zip (test set)
 Source (official release):
 https://zenodo.org/records/13370657
+- The repository does NOT contain any raw dataset files.

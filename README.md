@@ -12,3 +12,11 @@ Instead, the corpus is loaded using the `ir_datasets` library:
 ```python
 import ir_datasets
 dataset = ir_datasets.load("trec-tot/2024")
+
+
+## Installation
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt

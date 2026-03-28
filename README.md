@@ -3,7 +3,8 @@ IR project using TREC 2024 Tip-of-the-Tongue dataset. It includes EDA, preproces
 
 The dataset used in this project is the TREC 2024 Tip-of-the-Tongue dataset.
 
-- Queries and qrels are loaded from local files.
+- During development, query and qrel files were loaded from local zip files.
+- For the final repository, large raw files are not stored directly.
 - The corpus is NOT stored in this repository due to its large size (~3M documents).
 
 Instead, the corpus is loaded using the `ir_datasets` library:

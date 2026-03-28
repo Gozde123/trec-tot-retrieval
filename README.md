@@ -20,3 +20,10 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+
+Running the project
+
+Open the notebook in the `src/` folder and run all cells.
+
+The dataset will be automatically downloaded using the `ir_datasets` library when the notebook is executed.

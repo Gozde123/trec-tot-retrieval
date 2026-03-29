@@ -1,0 +1,4 @@
+Split,Number of Queries,Number of Qrels,Average Query Length,Median Query Length
+Train,150,150,147.38,127.0
+Validation,150,150,139.33,118.5
+Test,150,150,144.3,125.5

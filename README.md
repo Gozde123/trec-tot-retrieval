@@ -44,3 +44,6 @@ dev2-2024.zip (test set)
 Source (official release):
 https://zenodo.org/records/13370657
 - The repository does NOT contain any raw dataset files.
+
+* ## Report
+The project proposal report is available in `reports/Interim_report.pdf`.

@@ -48,9 +48,3 @@ https://zenodo.org/records/13370657
 * ## Report
 The project proposal report is available in `reports/Interim_report.pdf`.
 
-
-Before runnig Jupiter Notebook:
-
-```bash
-pip install -r requirements.txt
-```

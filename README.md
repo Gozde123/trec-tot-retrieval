@@ -46,5 +46,11 @@ https://zenodo.org/records/13370657
 - The repository does NOT contain any raw dataset files.
 
 * ## Report
-The project proposal report is available in `reports/Interim_report.pdf`.
+The project proposal report is available in `reports/project_proposal_report.pdf`.
 
+## W§B for Project:
+
+https://wandb.ai/gozdenur104-metu-middle-east-technical-university/trec-tot-hybrid-final/reports/Untitled-Report--VmlldzoxNjgyNTg4MQ?accessToken=85ivuatu4dzwikdqv8a70oleogsv67z1k5u31hakg7xh0wg87ladjc6cn3hbnn2r
+
+
+https://wandb.ai/gozdenur104-metu-middle-east-technical-university/trec-tot-interim/reports/Interim-Report-2--VmlldzoxNjgyNTkxMg?accessToken=5beoinygj9k0qremz4p3ngn03qu8vb8h904bzon5wb9qxd0knr1ui7uwt1qo2vx6

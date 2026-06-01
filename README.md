@@ -110,4 +110,12 @@ To reproduce the experiments:
 
 Random seeds were fixed to ensure reproducibility whenever possible.
 
+## docstring
+
+set_reproducibility(): Sets random seeds for reproducible experiments.
+normalize_per_query(): Normalizes retrieval scores using min-max scaling.
+build_dense_run(): Generates dense retrieval rankings from BM25 candidates.
+build_cross_encoder_run(): Produces reranked results using cross-encoder models.
+build_monot5_run(): Produces reranked results using the MonoT5 reranker.
+
 

@@ -1,8 +1,17 @@
 pandas
 numpy
+scipy
 matplotlib
 seaborn
 scikit-learn
+torch
+transformers
 sentence-transformers
+pyterrier
 ir-datasets
+ir-measures
+pygaggle
 tqdm
+umap-learn
+wandb
+FlagEmbedding

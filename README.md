@@ -45,12 +45,69 @@ Source (official release):
 https://zenodo.org/records/13370657
 - The repository does NOT contain any raw dataset files.
 
+
+## Models
+- BM25
+- SBERT
+- BGE-M3
+- MonoT5
+- BGE-Reranker
+
+## Evaluation Metrics
+- nDCG@10
+- nDCG@100
+- nDCG@1000
+- Recall@10
+- Recall@100
+- Recall@500
+- Recall@1000
+
+## Additional Analyses
+- Wilcoxon Statistical Significance Test
+- Rank Shift Analysis
+- Error Analysis
+- Candidate Recall Analysis
+- Win/Loss Analysis
+- UMAP Visualization
+
+
 * ## Report
 The project proposal report is available in `reports/project_proposal_report.pdf`.
 
-## W§B for Project:
+# W&B Reports
 
-https://wandb.ai/gozdenur104-metu-middle-east-technical-university/trec-tot-hybrid-final/reports/Untitled-Report--VmlldzoxNjgyNTg4MQ?accessToken=85ivuatu4dzwikdqv8a70oleogsv67z1k5u31hakg7xh0wg87ladjc6cn3hbnn2r
+The complete experiment logs, hyperparameter sweeps, evaluation results, statistical analyses, and visualizations are available through the following Weights & Biases reports.
+
+## Interim Reports
+
+* **Interim Report 1**
+  https://wandb.ai/gozdenur104-metu-middle-east-technical-university/trec-tot-hybrid-final/reports/Untitled-Report--VmlldzoxNjgyNTg4MQ?accessToken=85ivuatu4dzwikdqv8a70oleogsv67z1k5u31hakg7xh0wg87ladjc6cn3hbnn2r
+
+* **Interim Report 2**
+  https://wandb.ai/gozdenur104-metu-middle-east-technical-university/trec-tot-interim/reports/Interim-Report-2--VmlldzoxNjgyNTkxMg?accessToken=5beoinygj9k0qremz4p3ngn03qu8vb8h904bzon5wb9qxd0knr1ui7uwt1qo2vx6
+
+## Final Reports
+
+* **Final Tables Report**
+  https://wandb.ai/e250231-odt-teknokent/trec-tot-final/reports/Final-Tables-Report--VmlldzoxNzA1NjAxMA?accessToken=8cy7yb1rcwqboa63wr4rnnajq0flxt834h5gjveqm79upvb47m23khpdrp8hf755
+
+* **Final Plots Report**
+  https://wandb.ai/e250231-odt-teknokent/trec-tot-hybrid-final/reports/-Final-Plots-Report--VmlldzoxNzA1NjI3NQ?accessToken=7pnb0v3mwcp6f0ptr45yuycy6dfcexwtmx9j7z8u853m2wb08432a1olihbnp5gv
+
+These reports contain all experimental results, statistical significance tests, interpretability analyses, visualizations, and benchmark comparisons presented in this project.
 
 
-https://wandb.ai/gozdenur104-metu-middle-east-technical-university/trec-tot-interim/reports/Interim-Report-2--VmlldzoxNjgyNTkxMg?accessToken=5beoinygj9k0qremz4p3ngn03qu8vb8h904bzon5wb9qxd0knr1ui7uwt1qo2vx6
+## Reproducibility
+
+To reproduce the experiments:
+
+1. Install the required packages from `requirements.txt`.
+2. Build the PyTerrier index.
+3. Run the notebook cells sequentially.
+4. Evaluate retrieval performance using nDCG and Recall metrics.
+5. Compare systems using the Wilcoxon signed-rank test.
+6. Review the W&B reports for the complete experimental history.
+
+Random seeds were fixed to ensure reproducibility whenever possible.
+
+
